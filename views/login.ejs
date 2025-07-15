@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Chisato</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen">
+  <form method="POST" action="/login" class="bg-gray-800 p-6 rounded-xl shadow-lg w-full max-w-sm">
+    <h2 class="text-2xl font-bold mb-4 text-cyan-400 text-center">Login Premium</h2>
+    <input type="text" name="username" placeholder="Username"
+           class="w-full p-2 mb-3 rounded bg-gray-700 focus:outline-none text-white" required />
+    <input type="password" name="password" placeholder="Password"
+           class="w-full p-2 mb-4 rounded bg-gray-700 focus:outline-none text-white" required />
+    <button type="submit"
+            class="w-full py-2 bg-cyan-500 hover:bg-cyan-600 rounded font-semibold">Login</button>
+    <p class="mt-4 text-sm text-center text-gray-400">🔒 Hanya untuk user yang diundang</p>
+  </form>
+</body>
+</html>
